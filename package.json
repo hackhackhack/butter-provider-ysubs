@@ -1,29 +1,29 @@
 {
-  "name": "butter-provider-yts",
+  "name": "butter-provider-ysubs",
   "version": "0.1.0",
-  "description": "A Butter provider for YTS",
+  "description": "A Butter provider for YSubs",
   "main": "index.js",
   "butter": {
-    "testArgs": "yts?&apiURL=http://62.210.81.37/"
+    "testArgs": "ysubs?&apiURL=http://62.210.81.37/"
   },
   "scripts": {
     "test": "tape ./node_modules/butter-test-provider/tests/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/butterproviders/butter-provider-yts.git"
+    "url": "git+https://github.com/butterproviders/butter-provider-ysubs.git"
   },
   "keywords": [
-    "yts",
+    "ysubs",
     "butter",
     "streaming"
   ],
   "author": "Random Hacker",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/butterproviders/butter-provider-yts/issues"
+    "url": "https://github.com/butterproviders/butter-provider-ysubs/issues"
   },
-  "homepage": "https://github.com/butterproviders/butter-provider-yts#readme",
+  "homepage": "https://github.com/butterproviders/butter-provider-ysubs#readme",
   "dependencies": {
     "butter-provider": "^0.2.0",
     "butter-sanitize": "^0.1.0",
